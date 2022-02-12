@@ -43,7 +43,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#aaa"
+        "background-color": "#000"
       }
     },
     {
@@ -51,9 +51,21 @@
       "type": "hillshade",
       "source": "et10b",
       "paint": {
-        "hillshade-accent-color": "#000",
-        "hillshade-highlight-color": "#fff",
-        "hillshade-shadow-color": "#000"
+        "hillshade-accent-color": "#0ff",
+        "hillshade-highlight-color": "#000",
+        "hillshade-shadow-color": "#fff"
+      }
+    },
+    {
+      "id": "contour",
+      "type": "line",
+      "source": "gsibv-vectortile-source-1-4-16",
+      "source-layer": "contour",
+      "layout": {
+        "line-cap": "square"
+      },
+      "paint": {
+        "line-color": "#fff"
       }
     },
     {

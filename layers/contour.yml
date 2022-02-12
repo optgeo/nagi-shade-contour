@@ -1,0 +1,9 @@
+id: contour
+type: line
+source: gsibv-vectortile-source-1-4-16
+source-layer: contour
+layout:
+  line-cap: square
+paint:
+  line-color: "#fff"
+

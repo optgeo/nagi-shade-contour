@@ -32,6 +32,7 @@ glyphs: https://hfu.github.io/openmaptiles-fonts/{fontstack}/{range}.pbf
 layers:
   - !!inc/file layers/background.yml
   - !!inc/file layers/shade.yml
+  - !!inc/file layers/contour.yml
   - !!inc/file layers/buildings4302.yml
   - !!inc/file layers/buildings4301.yml
   - !!inc/file layers/buildings3111.yml
