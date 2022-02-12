@@ -1,0 +1,7 @@
+id: shade
+type: hillshade
+source: et10b
+paint:
+  hillshade-accent-color: "#000"
+  hillshade-highlight-color: "#fff"
+  hillshade-shadow-color: "#000"
